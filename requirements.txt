@@ -51,11 +51,11 @@ threadpoolctl==3.6.0
     # via scikit-learn
 typing-extensions==4.14.1
     # via
-    #   anyio
+    #   anyio     
     #   fastapi
     #   pydantic
     #   pydantic-core
-    #   starlette
+    #   starlettenginx
     #   typing-inspection
 typing-inspection==0.4.1
     # via pydantic

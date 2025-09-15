@@ -24,7 +24,7 @@ for risk, path in MODEL_PATHS.items():
 app = FastAPI()
 
 # Enable CORS for production
-allowed_origins = os.getenv("ALLOWED_ORIGINS", "*").split(",")
+allowed_origins = os.getenv("ALLOWED_ORIGINS", "https://cybersecurity-risks.vercel.app").split(",")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,
